@@ -17,9 +17,10 @@ public class Shopping {
         }
         System.out.println("Rewe работает? Y/N");
         String rewe = scanner.nextLine();
-        if (edeka.equalsIgnoreCase("N")){
+        if (rewe.equalsIgnoreCase("N")){
             isReweOpen = false;
         }
+
         System.out.println("Я могу купить еду: " + canBuy(isEdekaOpen, isReweOpen));
 
     }

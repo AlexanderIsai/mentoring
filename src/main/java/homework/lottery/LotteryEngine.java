@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class LotteryEngine {
     static int start = 1;
-    static int end = 10;
+    static int end = 50;
 
     public static int[] lotteryGo(int quantityNumbers) {
         Random random = new Random();

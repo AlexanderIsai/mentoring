@@ -17,6 +17,8 @@ public class ChangePlace {
 
         System.out.println(Arrays.toString(invertArr(arr)));
 
+
+
     }
 
     private static int[] invertArr(int[] arr){
@@ -26,4 +28,5 @@ public class ChangePlace {
         }
         return resultArr;
     }
+
 }
